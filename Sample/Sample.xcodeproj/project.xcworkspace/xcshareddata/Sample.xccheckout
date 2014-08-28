@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3197E68C-9DD0-4181-A2DF-3BEB70FA359E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E0D7581230D47189951D9AE0CB027E34EF37A853</key>
+		<string>https://github.com/samuelzhou/SceneKitTutorials.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sample/Sample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E0D7581230D47189951D9AE0CB027E34EF37A853</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/samuelzhou/SceneKitTutorials.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E0D7581230D47189951D9AE0CB027E34EF37A853</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E0D7581230D47189951D9AE0CB027E34EF37A853</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SceneKitTutorials</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,47 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22E10ED919AEC904009E8D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E10ED819AEC904009E8D84 /* AppDelegate.swift */; };
-		22E10EDB19AEC904009E8D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E10EDA19AEC904009E8D84 /* ViewController.swift */; };
-		22E10EDE19AEC904009E8D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E10EDC19AEC904009E8D84 /* Main.storyboard */; };
-		22E10EE019AEC904009E8D84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E10EDF19AEC904009E8D84 /* Images.xcassets */; };
-		22E10EEC19AEC905009E8D84 /* SampleBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E10EEB19AEC905009E8D84 /* SampleBoxTests.swift */; };
-		22E10EF619AEC974009E8D84 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E10EF519AEC974009E8D84 /* SceneKit.framework */; };
+		2233098E19AEE49000AEBAF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2233098D19AEE49000AEBAF2 /* AppDelegate.swift */; };
+		2233099019AEE49000AEBAF2 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2233098F19AEE49000AEBAF2 /* art.scnassets */; };
+		2233099219AEE49000AEBAF2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2233099119AEE49000AEBAF2 /* GameViewController.swift */; };
+		2233099519AEE49000AEBAF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2233099319AEE49000AEBAF2 /* Main.storyboard */; };
+		2233099719AEE49000AEBAF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2233099619AEE49000AEBAF2 /* Images.xcassets */; };
+		223309A319AEE49100AEBAF2 /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223309A219AEE49100AEBAF2 /* SampleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		22E10EE619AEC904009E8D84 /* PBXContainerItemProxy */ = {
+		2233099D19AEE49100AEBAF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 22E10ECB19AEC904009E8D84 /* Project object */;
+			containerPortal = 2233098019AEE49000AEBAF2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22E10ED219AEC904009E8D84;
-			remoteInfo = SampleBox;
+			remoteGlobalIDString = 2233098719AEE49000AEBAF2;
+			remoteInfo = Sample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22E10ED319AEC904009E8D84 /* SampleBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		22E10ED719AEC904009E8D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22E10ED819AEC904009E8D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22E10EDA19AEC904009E8D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22E10EDD19AEC904009E8D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		22E10EDF19AEC904009E8D84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		22E10EE519AEC904009E8D84 /* SampleBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22E10EEA19AEC904009E8D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22E10EEB19AEC905009E8D84 /* SampleBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleBoxTests.swift; sourceTree = "<group>"; };
-		22E10EF519AEC974009E8D84 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		2233098819AEE49000AEBAF2 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2233098C19AEE49000AEBAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2233098D19AEE49000AEBAF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2233098F19AEE49000AEBAF2 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		2233099119AEE49000AEBAF2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2233099419AEE49000AEBAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2233099619AEE49000AEBAF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2233099C19AEE49100AEBAF2 /* SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		223309A119AEE49100AEBAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223309A219AEE49100AEBAF2 /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22E10ED019AEC904009E8D84 /* Frameworks */ = {
+		2233098519AEE49000AEBAF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E10EF619AEC974009E8D84 /* SceneKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22E10EE219AEC904009E8D84 /* Frameworks */ = {
+		2233099919AEE49100AEBAF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,58 +56,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22E10ECA19AEC904009E8D84 = {
+		2233097F19AEE49000AEBAF2 = {
 			isa = PBXGroup;
 			children = (
-				22E10EF519AEC974009E8D84 /* SceneKit.framework */,
-				22E10ED519AEC904009E8D84 /* SampleBox */,
-				22E10EE819AEC904009E8D84 /* SampleBoxTests */,
-				22E10ED419AEC904009E8D84 /* Products */,
+				2233098A19AEE49000AEBAF2 /* Sample */,
+				2233099F19AEE49100AEBAF2 /* SampleTests */,
+				2233098919AEE49000AEBAF2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		22E10ED419AEC904009E8D84 /* Products */ = {
+		2233098919AEE49000AEBAF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22E10ED319AEC904009E8D84 /* SampleBox.app */,
-				22E10EE519AEC904009E8D84 /* SampleBoxTests.xctest */,
+				2233098819AEE49000AEBAF2 /* Sample.app */,
+				2233099C19AEE49100AEBAF2 /* SampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22E10ED519AEC904009E8D84 /* SampleBox */ = {
+		2233098A19AEE49000AEBAF2 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				22E10ED819AEC904009E8D84 /* AppDelegate.swift */,
-				22E10EDA19AEC904009E8D84 /* ViewController.swift */,
-				22E10EDC19AEC904009E8D84 /* Main.storyboard */,
-				22E10EDF19AEC904009E8D84 /* Images.xcassets */,
-				22E10ED619AEC904009E8D84 /* Supporting Files */,
+				2233098D19AEE49000AEBAF2 /* AppDelegate.swift */,
+				2233098F19AEE49000AEBAF2 /* art.scnassets */,
+				2233099119AEE49000AEBAF2 /* GameViewController.swift */,
+				2233099319AEE49000AEBAF2 /* Main.storyboard */,
+				2233099619AEE49000AEBAF2 /* Images.xcassets */,
+				2233098B19AEE49000AEBAF2 /* Supporting Files */,
 			);
-			path = SampleBox;
+			path = Sample;
 			sourceTree = "<group>";
 		};
-		22E10ED619AEC904009E8D84 /* Supporting Files */ = {
+		2233098B19AEE49000AEBAF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				22E10ED719AEC904009E8D84 /* Info.plist */,
+				2233098C19AEE49000AEBAF2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		22E10EE819AEC904009E8D84 /* SampleBoxTests */ = {
+		2233099F19AEE49100AEBAF2 /* SampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				22E10EEB19AEC905009E8D84 /* SampleBoxTests.swift */,
-				22E10EE919AEC904009E8D84 /* Supporting Files */,
+				223309A219AEE49100AEBAF2 /* SampleTests.swift */,
+				223309A019AEE49100AEBAF2 /* Supporting Files */,
 			);
-			path = SampleBoxTests;
+			path = SampleTests;
 			sourceTree = "<group>";
 		};
-		22E10EE919AEC904009E8D84 /* Supporting Files */ = {
+		223309A019AEE49100AEBAF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				22E10EEA19AEC904009E8D84 /* Info.plist */,
+				223309A119AEE49100AEBAF2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -116,60 +115,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22E10ED219AEC904009E8D84 /* SampleBox */ = {
+		2233098719AEE49000AEBAF2 /* Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22E10EEF19AEC905009E8D84 /* Build configuration list for PBXNativeTarget "SampleBox" */;
+			buildConfigurationList = 223309A619AEE49100AEBAF2 /* Build configuration list for PBXNativeTarget "Sample" */;
 			buildPhases = (
-				22E10ECF19AEC904009E8D84 /* Sources */,
-				22E10ED019AEC904009E8D84 /* Frameworks */,
-				22E10ED119AEC904009E8D84 /* Resources */,
+				2233098419AEE49000AEBAF2 /* Sources */,
+				2233098519AEE49000AEBAF2 /* Frameworks */,
+				2233098619AEE49000AEBAF2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SampleBox;
-			productName = SampleBox;
-			productReference = 22E10ED319AEC904009E8D84 /* SampleBox.app */;
+			name = Sample;
+			productName = Sample;
+			productReference = 2233098819AEE49000AEBAF2 /* Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		22E10EE419AEC904009E8D84 /* SampleBoxTests */ = {
+		2233099B19AEE49100AEBAF2 /* SampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22E10EF219AEC905009E8D84 /* Build configuration list for PBXNativeTarget "SampleBoxTests" */;
+			buildConfigurationList = 223309A919AEE49100AEBAF2 /* Build configuration list for PBXNativeTarget "SampleTests" */;
 			buildPhases = (
-				22E10EE119AEC904009E8D84 /* Sources */,
-				22E10EE219AEC904009E8D84 /* Frameworks */,
-				22E10EE319AEC904009E8D84 /* Resources */,
+				2233099819AEE49100AEBAF2 /* Sources */,
+				2233099919AEE49100AEBAF2 /* Frameworks */,
+				2233099A19AEE49100AEBAF2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				22E10EE719AEC904009E8D84 /* PBXTargetDependency */,
+				2233099E19AEE49100AEBAF2 /* PBXTargetDependency */,
 			);
-			name = SampleBoxTests;
-			productName = SampleBoxTests;
-			productReference = 22E10EE519AEC904009E8D84 /* SampleBoxTests.xctest */;
+			name = SampleTests;
+			productName = SampleTests;
+			productReference = 2233099C19AEE49100AEBAF2 /* SampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		22E10ECB19AEC904009E8D84 /* Project object */ = {
+		2233098019AEE49000AEBAF2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Samtina Studio";
 				TargetAttributes = {
-					22E10ED219AEC904009E8D84 = {
+					2233098719AEE49000AEBAF2 = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					22E10EE419AEC904009E8D84 = {
+					2233099B19AEE49100AEBAF2 = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 22E10ED219AEC904009E8D84;
+						TestTargetID = 2233098719AEE49000AEBAF2;
 					};
 				};
 			};
-			buildConfigurationList = 22E10ECE19AEC904009E8D84 /* Build configuration list for PBXProject "SampleBox" */;
+			buildConfigurationList = 2233098319AEE49000AEBAF2 /* Build configuration list for PBXProject "Sample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -177,28 +176,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 22E10ECA19AEC904009E8D84;
-			productRefGroup = 22E10ED419AEC904009E8D84 /* Products */;
+			mainGroup = 2233097F19AEE49000AEBAF2;
+			productRefGroup = 2233098919AEE49000AEBAF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22E10ED219AEC904009E8D84 /* SampleBox */,
-				22E10EE419AEC904009E8D84 /* SampleBoxTests */,
+				2233098719AEE49000AEBAF2 /* Sample */,
+				2233099B19AEE49100AEBAF2 /* SampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		22E10ED119AEC904009E8D84 /* Resources */ = {
+		2233098619AEE49000AEBAF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E10EDE19AEC904009E8D84 /* Main.storyboard in Resources */,
-				22E10EE019AEC904009E8D84 /* Images.xcassets in Resources */,
+				2233099719AEE49000AEBAF2 /* Images.xcassets in Resources */,
+				2233099019AEE49000AEBAF2 /* art.scnassets in Resources */,
+				2233099519AEE49000AEBAF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22E10EE319AEC904009E8D84 /* Resources */ = {
+		2233099A19AEE49100AEBAF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,38 +208,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22E10ECF19AEC904009E8D84 /* Sources */ = {
+		2233098419AEE49000AEBAF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E10EDB19AEC904009E8D84 /* ViewController.swift in Sources */,
-				22E10ED919AEC904009E8D84 /* AppDelegate.swift in Sources */,
+				2233099219AEE49000AEBAF2 /* GameViewController.swift in Sources */,
+				2233098E19AEE49000AEBAF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22E10EE119AEC904009E8D84 /* Sources */ = {
+		2233099819AEE49100AEBAF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E10EEC19AEC905009E8D84 /* SampleBoxTests.swift in Sources */,
+				223309A319AEE49100AEBAF2 /* SampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22E10EE719AEC904009E8D84 /* PBXTargetDependency */ = {
+		2233099E19AEE49100AEBAF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 22E10ED219AEC904009E8D84 /* SampleBox */;
-			targetProxy = 22E10EE619AEC904009E8D84 /* PBXContainerItemProxy */;
+			target = 2233098719AEE49000AEBAF2 /* Sample */;
+			targetProxy = 2233099D19AEE49100AEBAF2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		22E10EDC19AEC904009E8D84 /* Main.storyboard */ = {
+		2233099319AEE49000AEBAF2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				22E10EDD19AEC904009E8D84 /* Base */,
+				2233099419AEE49000AEBAF2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -247,7 +247,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		22E10EED19AEC905009E8D84 /* Debug */ = {
+		223309A419AEE49100AEBAF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,7 +289,7 @@
 			};
 			name = Debug;
 		};
-		22E10EEE19AEC905009E8D84 /* Release */ = {
+		223309A519AEE49100AEBAF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -324,29 +324,29 @@
 			};
 			name = Release;
 		};
-		22E10EF019AEC905009E8D84 /* Debug */ = {
+		223309A719AEE49100AEBAF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = SampleBox/Info.plist;
+				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		22E10EF119AEC905009E8D84 /* Release */ = {
+		223309A819AEE49100AEBAF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = SampleBox/Info.plist;
+				INFOPLIST_FILE = Sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		22E10EF319AEC905009E8D84 /* Debug */ = {
+		223309AA19AEE49100AEBAF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -358,14 +358,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SampleBoxTests/Info.plist;
+				INFOPLIST_FILE = SampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleBox.app/SampleBox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample.app/Sample";
 			};
 			name = Debug;
 		};
-		22E10EF419AEC905009E8D84 /* Release */ = {
+		223309AB19AEE49100AEBAF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -373,44 +373,42 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SampleBoxTests/Info.plist;
+				INFOPLIST_FILE = SampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleBox.app/SampleBox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample.app/Sample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22E10ECE19AEC904009E8D84 /* Build configuration list for PBXProject "SampleBox" */ = {
+		2233098319AEE49000AEBAF2 /* Build configuration list for PBXProject "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22E10EED19AEC905009E8D84 /* Debug */,
-				22E10EEE19AEC905009E8D84 /* Release */,
+				223309A419AEE49100AEBAF2 /* Debug */,
+				223309A519AEE49100AEBAF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22E10EEF19AEC905009E8D84 /* Build configuration list for PBXNativeTarget "SampleBox" */ = {
+		223309A619AEE49100AEBAF2 /* Build configuration list for PBXNativeTarget "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22E10EF019AEC905009E8D84 /* Debug */,
-				22E10EF119AEC905009E8D84 /* Release */,
+				223309A719AEE49100AEBAF2 /* Debug */,
+				223309A819AEE49100AEBAF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		22E10EF219AEC905009E8D84 /* Build configuration list for PBXNativeTarget "SampleBoxTests" */ = {
+		223309A919AEE49100AEBAF2 /* Build configuration list for PBXNativeTarget "SampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22E10EF319AEC905009E8D84 /* Debug */,
-				22E10EF419AEC905009E8D84 /* Release */,
+				223309AA19AEE49100AEBAF2 /* Debug */,
+				223309AB19AEE49100AEBAF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 22E10ECB19AEC904009E8D84 /* Project object */;
+	rootObject = 2233098019AEE49000AEBAF2 /* Project object */;
 }
