@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		229DA25419B048BB008C3A9B /* star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 229DA25319B048BB008C3A9B /* star.jpg */; };
 		22E10ED919AEC904009E8D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E10ED819AEC904009E8D84 /* AppDelegate.swift */; };
 		22E10EDB19AEC904009E8D84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E10EDA19AEC904009E8D84 /* ViewController.swift */; };
 		22E10EDE19AEC904009E8D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E10EDC19AEC904009E8D84 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		229DA25319B048BB008C3A9B /* star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = star.jpg; path = ../../../../Downloads/star.jpg; sourceTree = "<group>"; };
 		22E10ED319AEC904009E8D84 /* SampleBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E10ED719AEC904009E8D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22E10ED819AEC904009E8D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		229DA25219B0468C008C3A9B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				229DA25319B048BB008C3A9B /* star.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 		22E10ECA19AEC904009E8D84 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +89,7 @@
 		22E10ED519AEC904009E8D84 /* SampleBox */ = {
 			isa = PBXGroup;
 			children = (
+				229DA25219B0468C008C3A9B /* image */,
 				22E10ED819AEC904009E8D84 /* AppDelegate.swift */,
 				22E10EDA19AEC904009E8D84 /* ViewController.swift */,
 				22E10EDC19AEC904009E8D84 /* Main.storyboard */,
@@ -194,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22E10EDE19AEC904009E8D84 /* Main.storyboard in Resources */,
+				229DA25419B048BB008C3A9B /* star.jpg in Resources */,
 				22E10EE019AEC904009E8D84 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

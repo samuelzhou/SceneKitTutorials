@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A1D88997-B083-4FBD-9550-58B026CAF36C</string>
+	<string>660FA7F5-971D-4F5A-8DD9-EBB9007A4857</string>
 	<key>IDESourceControlProjectName</key>
-	<string>SceneKitTutorials</string>
+	<string>SampleBox</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E0D7581230D47189951D9AE0CB027E34EF37A853</key>
 		<string>https://github.com/samuelzhou/SceneKitTutorials.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SceneKitTutorials.xcworkspace</string>
+	<string>SampleBox/SampleBox.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E0D7581230D47189951D9AE0CB027E34EF37A853</key>
-		<string>..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/samuelzhou/SceneKitTutorials.git</string>

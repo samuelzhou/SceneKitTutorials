@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B659B9C7-16C6-4855-9BF9-53AA8B50DBDB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CameraAndLights</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E0D7581230D47189951D9AE0CB027E34EF37A853</key>
+		<string>https://github.com/samuelzhou/SceneKitTutorials.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CameraAndLights/CameraAndLights.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E0D7581230D47189951D9AE0CB027E34EF37A853</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/samuelzhou/SceneKitTutorials.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E0D7581230D47189951D9AE0CB027E34EF37A853</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E0D7581230D47189951D9AE0CB027E34EF37A853</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SceneKitTutorials</string>
+		</dict>
+	</array>
+</dict>
+</plist>
