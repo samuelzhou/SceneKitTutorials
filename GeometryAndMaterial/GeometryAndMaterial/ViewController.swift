@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         //
         let mySphere = SCNSphere(radius: 10)
         let mySphereNode = SCNNode(geometry: mySphere)
-        mySphereNode.position = SCNVector3(x: -10, y: 0, z: 0)
+        mySphereNode.position = SCNVector3(x: -15, y: 0, z: 0)
         myScene.rootNode.addChildNode(mySphereNode)
         
         //
@@ -82,11 +82,12 @@ class ViewController: UIViewController {
         //
         // Create a 3D text
         //
-        let myText = SCNText(string: "Sphere and Pyramid", extrusionDepth: 5)
-        myText.font = UIFont(name: "Optima", size: 9)
+        let myText = SCNText(string: "Sphere & Pyramid", extrusionDepth: 5)
+        myText.font = UIFont(name: "Optima", size: 30)
         myText.materials = [myStar, myBlue]
         let myTextNode = SCNNode(geometry: myText)
-        myTextNode.position = SCNVector3(x: -30, y: -10, z: 10)
+        myTextNode.position = SCNVector3(x: -33, y: -10, z: 10)
+        myTextNode.orientation = SCNQuaternion(x: 0.1, y: 0, z: 0.5, w: 0)
         myScene.rootNode.addChildNode(myTextNode)
 
         //

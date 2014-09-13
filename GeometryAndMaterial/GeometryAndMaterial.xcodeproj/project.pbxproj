@@ -336,6 +336,7 @@
 				INFOPLIST_FILE = GeometryAndMaterial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -347,6 +348,7 @@
 				INFOPLIST_FILE = GeometryAndMaterial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -403,6 +405,7 @@
 				2292219019B5A38F00856AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2292219119B5A38F00856AF4 /* Build configuration list for PBXNativeTarget "GeometryAndMaterialTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +414,7 @@
 				2292219319B5A38F00856AF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
