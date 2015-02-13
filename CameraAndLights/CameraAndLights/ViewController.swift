@@ -98,14 +98,13 @@ class ViewController: UIViewController {
         self.view.addSubview(myView!)
     }
     
-    override func touchesEnded(touches: NSSet!, withEvent event: UIEvent!) {
+    override func touchesEnded(touches: NSSet, withEvent event: UIEvent) {
         //
         // In this delegate, you can get the positions and orientations of camera
         // when setting allowsCameraControl to true.
         //
-        let quaternion = myView?.pointOfView.orientation
-        let position = myView?.pointOfView.position
+        let quaternion = myView?.pointOfView?.orientation
+        let position = myView?.pointOfView?.position
         println("Orientation: (\(quaternion?.x),\(quaternion?.y),\(quaternion?.z),\(quaternion?.w)) Position: (\(position?.x),\(position?.y),\(position?.z)")
     }
 }
-
